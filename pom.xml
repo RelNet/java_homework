@@ -8,5 +8,14 @@
     <artifactId>java_homework</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx</artifactId>
+            <version>13.0.1</version>
+            <type>pom</type>
+        </dependency>
+    </dependencies>
+
 
 </project>
