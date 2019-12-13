@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15056980-d0b3-4be0-82af-724abeadaf0f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/smartfox_info.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/client/FileTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/server/StartSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/server/connect/ConnectClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/server/connect/Connection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/server/connect/constant/MessageTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/server/connect/error/UndefinedMessageType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/client/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/server/test.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,6 +23,13 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -36,9 +55,30 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.import.settings.migrated" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="StartSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="server.StartSystem" />
+      <module name="java_homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.StartSystem" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -68,7 +108,10 @@
       <workItem from="1575978734449" duration="608000" />
       <workItem from="1575981168687" duration="598000" />
       <workItem from="1576022035402" duration="939000" />
-      <workItem from="1576121281149" duration="974000" />
+      <workItem from="1576121281149" duration="16373000" />
+      <workItem from="1576213521598" duration="49000" />
+      <workItem from="1576218749285" duration="3248000" />
+      <workItem from="1576222893093" duration="10000" />
     </task>
     <servers />
   </component>
@@ -76,9 +119,30 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="653" y="247" key="#com.intellij.ide.util.MemberChooser" timestamp="1576204485673">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="653" y="247" key="#com.intellij.ide.util.MemberChooser/-1194.0.1194.834/0.0.1680.1050@0.0.1680.1050" timestamp="1576204485673" />
+    <state x="653" y="247" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1576165357909" />
     <state x="528" y="259" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575978621490">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="528" y="259" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1575978621490" />
+    <state width="1638" height="268" key="GridCell.Tab.0.bottom" timestamp="1576222009624">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="268" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1576222009624" />
+    <state width="1638" height="268" key="GridCell.Tab.0.center" timestamp="1576222009623">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="268" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1576222009623" />
+    <state width="1638" height="268" key="GridCell.Tab.0.left" timestamp="1576222009622">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="268" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1576222009622" />
+    <state width="1638" height="268" key="GridCell.Tab.0.right" timestamp="1576222009623">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="268" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1576222009623" />
   </component>
 </project>
